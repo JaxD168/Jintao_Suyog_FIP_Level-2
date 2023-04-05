@@ -1,0 +1,51 @@
+a {
+    text-decoration: none;
+    transition: all .5s ease-in-out;
+}
+ul li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+/* header */
+header {
+    background-image: url(../images/mobile/Hero-img-bg.png);
+    height: 568px;
+    background-repeat: no-repeat;
+}
+/* hamburger */
+#main-nav button {
+    background: url(../images/mobile/mobile-Hambuger-menu.png) center no-repeat;
+    border: 0px;
+    width: 24px;
+    height: 9px;
+}
+
+#main-nav ul li a {
+    display: block;
+    padding: 10px 0 10px 0;
+    color: white;
+}
+
+#main-nav ul li:last-child {
+    margin-bottom: 10px;
+}
+
+#burger-menu.slide-toggle {
+    display: block;
+ }
+
+
+/* set tablet size */
+@media screen and (min-width: 320px) {
+    header {
+        background-image: url(../images/tablet/de-Hero-bg.png);
+    }
+}
+/* set desktop size */
+@media screen and (min-width: 768px) {
+    header {
+        background-image: url(../images/desktop/de-Hero-bg_oskjdr_c_scale,w_1920.png);
+    }
+}
+
